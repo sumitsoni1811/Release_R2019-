@@ -1,6 +1,6 @@
 node {
 stage('Build') {
-  echo 'on branch production'
+  echon as 'on branch production'
 echo 'Building....'
 }
 stage('Test') {
