@@ -6,7 +6,7 @@ echo 'Building....'
 try{
         stage('to be failed')
   {
-            echo Building....'
+            %ERRORLEVEL%  =1
    }
     } 
   catch(e) 
