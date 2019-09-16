@@ -1,6 +1,7 @@
 node {
 stage('Build') {
   echo 'on branch production'
+  echo 'name is ${myname}'
 echo 'Building....'
 }
  
