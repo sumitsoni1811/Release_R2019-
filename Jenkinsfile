@@ -1,8 +1,19 @@
 node {
 stage('Build') {
-  echon as 'on branch production'
+  echo 'on branch production'
 echo 'Building....'
 }
+try{
+        stage('to be failed')
+  {
+            echons  'Building....'
+   }
+    } 
+  catch(e) 
+  {     build_ok = false
+        echo e.toString()  
+    }
+  
 stage('Test') {
 echo 'Building....'
 }
