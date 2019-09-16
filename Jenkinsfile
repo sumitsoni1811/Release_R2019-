@@ -4,7 +4,7 @@ stage('Build') {
   echo 'on branch production'
     echo " name is ${params.myname}"
   echo "var value is ${myVar}"
-myvar="changed by build"
+myvar= 'changed by build'
 echo 'Building....'
 }
  
