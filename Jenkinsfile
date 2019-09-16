@@ -6,7 +6,7 @@ echo 'Building....'
 try{
         stage('to be failed')
   {
-            echons  'Building....'
+            echo Building....'
    }
     } 
   catch(e) 
